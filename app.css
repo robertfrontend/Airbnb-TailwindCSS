@@ -1,0 +1,22 @@
+@tailwind base;
+
+@tailwind components;
+
+/*-- a del menu--*/
+.link-menu{
+    @apply text-sm font-normal text-white 
+}
+/*----*/
+
+/*seccion-1 descubre tarjetas*/
+.descubre-tarject{
+    @apply text-gray-700 text-center m-5 flex-row justify-center items-center pr-32 rounded-lg
+}
+/*----*/
+
+
+@tailwind utilities;
+
+.shadow-suave{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.247);
+}

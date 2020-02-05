@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AirBnB TailwindCSS</title>
+
+    <link rel="stylesheet" href="css/app.css">
+
+    <!--mi sasss-->
+    <link rel="stylesheet" href="./sass/miSass.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="color">
+            <div class="container mx-auto px-4">
+                <div class="div-menu">
+                    <div>
+                        <img src="./img/logo.svg" alt="">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li >
+                                <a href="" class="link-menu hover:underline" >
+                                    Español(US)
+                                </a>
+                                <a href="" class="link-menu hover:underline">
+                                    $USD
+                                </a>
+                                <a href="" class="link-menu hover:underline">
+                                    Hospeda en un alojamiento
+                                </a>
+                                <a href="" class="link-menu hover:underline">
+                                    Organiza una experiencia
+                                </a>
+                                <a href="" class="link-menu hover:underline">
+                                    Ayuda
+                                </a>
+                                <a href="" class="link-menu hover:underline">
+                                    Registrate
+                                </a>
+                                <a href="" class="link-menu hover:underline">
+                                    Inicia seccion
+                                </a>
+                            </li >
+                        </ul>
+                    </nav>
+                </div>
+                <div class="w-full flex justify-start items-end">
+                    <div class="w-4/12 overflow-hidden shadow-lg bg-white pt-4 pr-8 pl-6 pb-8  ml-10 mt-16 mb-12 rounded ">
+                        <h1 class="text-3xl text-teal-900 font-bold p-2 ">
+                            Reserva alojamientos y experiencias únicas.
+                        </h1>
+                        <label for="" class="text-teal-900 text-xs font-bold p-2 uppercase">Donde</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Caulquier lugar">
+    
+                        <label for="" class="text-teal-900 text-xs font-bold p-2  uppercase">Llegada</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="" type="datetime-local" placeholder="dd/mm/aaaa">
+                     
+                        <label for="" class="text-teal-900 text-xs font-bold p-2  uppercase">Salida</label>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="" type="datetime-local" placeholder="dd/mm/aaaa">
+                        
+                        <label for="" class="text-teal-900 text-xs font-bold p-2 uppercase">HUESPEDES</label>
+                        <form action="">
+                            <select name="Huespedes" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="">
+                                <option value="Adultos">Adultos</option>
+                                <option value="Jovenes">Jovenes</option>
+                                <option value="Niños">Niños</option>
+                                <option value="Bebes">Bebes</option>
+                            </select>
+                        </form>
+                        
+                        <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 mt-8 float-right rounded">
+                            Buscar
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="seccion-1">
+        <div class="container mx-auto px-4">
+            <h1 class="text-teal-900 m-5 text-3xl font-bold">
+                Descubre Airbnb
+            </h1>
+            <div class="flex flex-row">
+                <a href="#descubre">
+                    <div class="descubre-tarject flex shadow-suave">
+                        <img class="w-40 rounded-lg" src="./img/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg" alt="">
+                        <h1 class="text-teal-900 m-5 text-base font-bold">
+                            Estancias
+                        </h1>
+                    </div>
+                </a>
+                <a href="#descubre">
+                    <div class="descubre-tarject flex shadow-suave">
+                        <img class="w-40 rounded-lg" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
+                        <h1 class="text-teal-900 m-5 text-base font-bold">
+                            Estancias
+                        </h1>
+                    </div>
+                </a>
+                <a href="#descubre">
+                    <div class="descubre-tarject flex shadow-suave">
+                        <img class="w-40 rounded-lg" src="./img/ralph-kayden-2d4lAQAlbDA-unsplash.jpg" alt="">
+                        <h1 class="text-teal-900 m-5 text-base font-bold">
+                            Estancias
+                        </h1>
+                    </div>
+                </a>
+            </div>              
+        </div>
+    </section>
+    
+    <section class="seccion-2">
+        <div class="container mx-auto px-4">
+            <h1 class="text-teal-900 m-3 text-3xl font-bold">
+                Alojamientos Airbnb Plus
+            </h1>
+            <p class="text-teal-900 text-normal m-3">
+                Una selección de lugares para hospedarte con calidad y diseño verificados
+            </p>
+            <div class="flex flex-col mt-10 mb-8 div-sec-2 rounded-lg justify-center items-center">
+                <div class="flex flex-row">
+                    <img class="w-8" src="./img/logo.svg" alt="">
+                    <h1 class="text-teal-900 m-3 text-3xl d">
+                        Plus
+                    </h1>
+                </div>
+                <button class="bg-white hover:bg-white-700 text-teal-900  py-3 px-12 rounded-lg">
+                    Explora los alojamientos
+                  </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
