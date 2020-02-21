@@ -17,6 +17,11 @@
         height: auto;
         display: flex;
         flex-direction: row;
+        @media screen and(max-width:1077px){
+            flex-direction: column !important;
+        }
+
+
 
         div {
             width: 10%;
@@ -26,8 +31,20 @@
             justify-content: center;
             align-items: flex-start;
 
+            @media screen and(max-width:1077px){
+                align-items: center;
+                width: 100%;
+                margin: 10px 0px;
+            }
+
+
             img {
                 width: 25%;
+
+                @media screen and(max-width:1077px){
+                    width: 50px;
+                }
+    
             }
 
         }
@@ -39,11 +56,18 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
+
+            @media screen and(max-width:1077px){
+                width: 100% !important;
+                margin: 10px 0px;
+                text-align: center;
+            }
 
             ul {
                 li{
                     a {
-                        padding: 10px 20px;
+                        padding: 10px 10px;
                     }
                 }
             }
@@ -59,4 +83,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+}
+
+.link-2{
+    text-decoration: none;
+}
+
+.hoverMio1{
+    &:hover{
+
+        &::after{
+            transition: all .2s;
+            content: '→';
+        }
+    }
 }

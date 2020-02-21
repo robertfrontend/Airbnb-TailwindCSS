@@ -1,21 +1,73 @@
 @tailwind base;
 
+h1 {
+    @apply text-teal-900 m-3 text-3xl font-bold
+}
+
+h2 {
+    @apply text-teal-900 m-3 font-normal font-bold
+}
+
+p{
+    @apply text-teal-900 font-normal m-3
+}
+
 @tailwind components;
 
-/*-- a del menu--*/
+/*--<adelmenu--*/
 .link-menu{
     @apply text-sm font-normal text-white 
 }
 /*----*/
 
-/*seccion-1 descubre tarjetas*/
+/*----seccion-1descubreTarjetas--*/
 .descubre-tarject{
-    @apply text-gray-700 text-center m-5 flex-row justify-center items-center pr-32 rounded-lg
+    @apply max-w-xs text-gray-700 text-center m-1 my-3 flex-row justify-center items-center pr-32 rounded-lg
 }
-/*----*/
+
+/*---TarjetasAventura---*/
+
+
+
+.tarjeta-aventura{
+    @apply wid flex-col justify-center items-center m-auto
+}
+
+.imagen-aventura{
+    @apply w-full rounded-lg m-0
+}
+
+/*---------------*/
+
+/*---Sientete---*/
+
+
+
+.tarjeta-Sientete{
+    @apply wid2 flex-col justify-center items-center m-10
+}
+
+
+.imagen-Sientete{
+    @apply w-full rounded-lg m-0
+}
+
+/*-----*/
+
+
 
 
 @tailwind utilities;
+
+
+.wid{
+    width: 250px;
+}
+
+.wid2{
+    width: 300px;
+}
+
 
 .shadow-suave{
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.247);
