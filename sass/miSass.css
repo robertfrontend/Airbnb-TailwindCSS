@@ -124,4 +124,13 @@
   transition: all .2s;
   content: '→';
 }
+
+.tarjetas-footer a {
+  font-size: 15px;
+  padding: 2px 10px;
+}
+
+.tarjetas-footer a:hover {
+  color: #f56565;
+}
 /*# sourceMappingURL=miSass.css.map */

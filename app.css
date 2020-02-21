@@ -56,6 +56,19 @@ p{
 
 
 
+/*----Footer----*/
+
+
+.div-footer {
+    @apply flex flex-row justify-center items-center flex-wrap mt-8
+}
+
+.tarjetas-footer{
+    @apply max-w-xs flex flex-col justify-center items-start m-auto
+}
+
+
+/*-----*/
 
 @tailwind utilities;
 
