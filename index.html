@@ -14,202 +14,247 @@
 </head>
 <body>
 
-    <header class="header">
-        <div class="color">
+    <main class="">
+        <header class="header">
+            <div class="color">
+                <div class="container mx-auto px-10">
+                    <div class="div-menu">
+                        <div>
+                            <img src="./img/logo.svg" alt="">
+                        </div>
+                        <nav>
+                            <ul>
+                                <li >
+                                    <a href="" class="link-menu hover:underline" >
+                                        Español(US)
+                                    </a>
+                                    <a href="" class="link-menu hover:underline">
+                                        $USD
+                                    </a>
+                                    <a href="" class="link-menu hover:underline">
+                                        Hospeda en un alojamiento
+                                    </a>
+                                    <a href="" class="link-menu hover:underline">
+                                        Organiza una experiencia
+                                    </a>
+                                    <a href="" class="link-menu hover:underline">
+                                        Ayuda
+                                    </a>
+                                    <a href="" class="link-menu hover:underline">
+                                        Registrate
+                                    </a>
+                                    <a href="" class="link-menu hover:underline">
+                                        Inicia seccion
+                                    </a>
+                                </li >
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <!--Reservar Header-->
+
+                    <div class="div-reservar">
+                        <div class="sub-reservar">
+
+                            <div>
+                                <h1 class="">
+                                    Reserva alojamientos y experiencias únicas.
+                                </h1>
+                            </div>
+
+                            <div>
+                                <!-- Inputs Donde-->
+                                <label for="" class="block uppercase tracking-wide text-gray-700 text-xs font-bold">
+                                    Donde
+                                </label>
+                                <input class="inputReservar focus:border-red-500 focus:outline-none focus:bg-white" 
+                                    id="lugar" type="text" placeholder="Caulquier lugar">
+                            </div>
+
+                            <div class="flex flex-row">   
+
+                                <div class="m-0 p-0">
+                                    <label for="" class="block uppercase text-gray-700 text-xs font-bold" >
+                                        Llegada
+                                    </label>
+                                    <input class="w-2/4" type="datetime-local" name="" id="">
+                                </div>
+
+                                <div class="m-0 p-0">
+                                    <label for="" class="block uppercase text-gray-700 text-xs font-bold" >
+                                        Salida
+                                    </label>
+                                    <input class="w-2/4" type="datetime-local" name="" id="">
+                                </div>
+                            
+                            </div>
+
+                            <div>
+                                <form action="">
+                                    <select name="Huespedes" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="">
+                                        <option value="Jovenes">Huespedes</option>
+                                        <option value="Jovenes">Jovenes 17-</option>
+                                        <option value="Adultos">Jovenes 14-</option>
+                                    </select>
+                                </form>
+                            </div>
+
+                            <div>
+                                <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 mt-8 float-right rounded">
+                                    Buscar
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--Fin Reservar Header-->
+
+                </div>
+            </div>
+        </header>
+        
+        <section class="seccion-1">
             <div class="container mx-auto px-10">
-                <div class="div-menu">
-                    <div>
-                        <img src="./img/logo.svg" alt="">
-                    </div>
-                    <nav>
-                        <ul>
-                            <li >
-                                <a href="" class="link-menu hover:underline" >
-                                    Español(US)
-                                </a>
-                                <a href="" class="link-menu hover:underline">
-                                    $USD
-                                </a>
-                                <a href="" class="link-menu hover:underline">
-                                    Hospeda en un alojamiento
-                                </a>
-                                <a href="" class="link-menu hover:underline">
-                                    Organiza una experiencia
-                                </a>
-                                <a href="" class="link-menu hover:underline">
-                                    Ayuda
-                                </a>
-                                <a href="" class="link-menu hover:underline">
-                                    Registrate
-                                </a>
-                                <a href="" class="link-menu hover:underline">
-                                    Inicia seccion
-                                </a>
-                            </li >
-                        </ul>
-                    </nav>
-                </div>
-                <div class="max-w-lg flex justify-start items-end">
-                    <div class="md:w overflow-hidden shadow-lg bg-white pt-4 pr-8 pl-6 pb-8 mt-16 mb-12 rounded ">
-                        <h1 class="text-3xl text-teal-900 font-bold p-2 ">
-                            Reserva alojamientos y experiencias únicas.
-                        </h1>
-                        <label for="" class="text-teal-900 text-xs font-bold p-2 uppercase">Donde</label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="lugar" type="text" placeholder="Caulquier lugar">
+                <h1>
+                    Descubre Airbnb
+                </h1>
+                <div class="flex flex-row flex-wrap justify-center items-center ">
     
-                        <label for="" class="text-teal-900 text-xs font-bold p-2  uppercase">Llegada</label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="" type="datetime-local" placeholder="dd/mm/aaaa">
-                     
-                        <label for="" class="text-teal-900 text-xs font-bold p-2  uppercase">Salida</label>
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="" type="datetime-local" placeholder="dd/mm/aaaa">
-                        
-                        <label for="" class="text-teal-900 text-xs font-bold p-2 uppercase">HUESPEDES</label>
-                        <form action="">
-                            <select name="Huespedes" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="">
-                                <option value="Adultos">Adultos</option>
-                                <option value="Jovenes">Jovenes</option>
-                                <option value="Niños">Niños</option>
-                                <option value="Bebes">Bebes</option>
-                            </select>
-                        </form>
-                        
-                        <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 mt-8 float-right rounded">
-                            Buscar
-                        </button>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+                    <a href="#descubre" class="descubre-tarject flex flex-row shadow-suave">
+                        <div class="flex flex-row justify-center items-center">
+                            <img class="w-40 rounded-lg" src="./img/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg" alt="">
+                            <h1 class="text-teal-900 m-5 text-base font-bold">
+                                Estancias
+                            </h1>
+                        </div>
+                    </a>
     
-    <section class="seccion-1">
-        <div class="container mx-auto px-10">
-            <h1>
-                Descubre Airbnb
-            </h1>
-            <div class="flex flex-row flex-wrap justify-center items-center ">
-                <a href="#descubre">
-                    <div class="descubre-tarject flex shadow-suave">
-                        <img class="w-40 rounded-lg" src="./img/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg" alt="">
-                        <h1 class="text-teal-900 m-5 text-base font-bold">
-                            Estancias
-                        </h1>
-                    </div>
-                </a>
-                <a href="#descubre">
-                    <div class="descubre-tarject flex shadow-suave">
-                        <img class="w-40 rounded-lg" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
-                        <h1 class="text-teal-900 m-5 text-base font-bold">
-                            Experiencias
-                        </h1>
-                    </div>
-                </a>
-                <a href="#descubre">
-                    <div class="descubre-tarject flex shadow-suave">
-                        <img class="w-40 rounded-lg" src="./img/ralph-kayden-2d4lAQAlbDA-unsplash.jpg" alt="">
-                        <h1 class="text-teal-900 m-5 text-base font-bold">
-                            Lujos
-                        </h1>
-                    </div>
-                </a>
-            </div>              
-        </div>
-    </section>
+                    <a href="#descubre" class="descubre-tarject flex flex-row shadow-suave">
+                        <div class="flex flex-row justify-center items-center">
+                            <img class="w-40 rounded-lg" src="./img/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg" alt="">
+                            <h1 class="text-teal-900 m-5 text-base font-bold">
+                                Estancias
+                            </h1>
+                        </div>
+                    </a>
     
-    <section class="seccion-2">
-        <div class="container mx-auto px-10">
-            <h1 class="">
-                Alojamientos Airbnb Plus
-            </h1>
-            <p class="">
-                Una selección de lugares para hospedarte con calidad y diseño verificados
-            </p>
-            <div class="flex flex-col mt-10 mb-8 div-sec-2 rounded-lg justify-center items-center">
-                <div class="flex flex-row">
-                    <img class="w-8" src="./img/logo.svg" alt="">
-                    <h1 class="text-teal-900 m-3 text-3xl d">
-                        Plus
-                    </h1>
-                </div>
-                <button class="bg-white hover:bg-white-700 text-teal-900  py-3 px-12 rounded-lg">
-                    Explora los alojamientos
-                  </button>
-            </div>
-        </div>
-    </section>
-
-    <section class="seccion-3">
-        <div class="container mx-auto px-10">
-            <a href="#fdasf" class="link-2 w-full flex flex-col">
-                <div class="">
-                    <h1 class="hoverMio1">
-                        Presentamos las Aventuras en Airbnb
-                    </h1>
-                    <p class="hoverMio1">
-                        Viajes de varios días dirigidos por expertos locales, con actividades, comidas y alojamiento incluidos.
-                    </p>
-                </div>
-            </a>
-                <div class="w-full flex flex-row justify-center items-center m-auto flex-wrap ">
+                    <a href="#descubre" class="descubre-tarject flex flex-row shadow-suave">
+                        <div class="flex flex-row justify-center items-center">
+                            <img class="w-40 rounded-lg" src="./img/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg" alt="">
+                            <h1 class="text-teal-900 m-5 text-base font-bold">
+                                Estancias
+                            </h1>
+                        </div>
+                    </a>
                     
-                    <a href="#aventuras" class="tarjeta-aventura">
-                        <div class="">
-                            <img class="imagen-aventura" src="./img/patrick-langwallner-ohmrRMdoegU-unsplash.jpg" alt="">
-                            <h2>Filipinas</h2>
-                            <p>Art & Architecture in Croatia</p>
-                            <p>Desde $4835 por persona 10 dias</p>
-                        </div>
-                    </a>
-
-                    <a href="#aventuras" class="tarjeta-aventura">
-                        <div class="">
-                            <img class="imagen-aventura" src="./img/patrick-langwallner-ohmrRMdoegU-unsplash.jpg" alt="">
-                            <h2>Filipinas</h2>
-                            <p>Art & Architecture in Croatia</p>
-                            <p>Desde $4835 por persona 10 dias</p>
-                        </div>
-                    </a>
-
-                    <a href="#aventuras" class="tarjeta-aventura">
-                        <div class="">
-                            <img class="imagen-aventura" src="./img/patrick-langwallner-ohmrRMdoegU-unsplash.jpg" alt="">
-                            <h2>Filipinas</h2>
-                            <p>Art & Architecture in Croatia</p>
-                            <p>Desde $4835 por persona 10 dias</p>
-                        </div>
-                    </a>
-
-                    <a href="#aventuras" class="tarjeta-aventura">
-                        <div class="">
-                            <img class="imagen-aventura" src="./img/patrick-langwallner-ohmrRMdoegU-unsplash.jpg" alt="">
-                            <h2>Filipinas</h2>
-                            <p>Art & Architecture in Croatia</p>
-                            <p>Desde $4835 por persona 10 dias</p>
-                        </div>
-                    </a>
-
-                   
+                </div>              
+            </div>
+        </section>
+        
+        <section class="seccion-2">
+            <div class="container mx-auto px-10">
+                <h1 class="">
+                    Alojamientos Airbnb Plus
+                </h1>
+                <p class="">
+                    Una selección de lugares para hospedarte con calidad y diseño verificados
+                </p>
+                <div class="flex flex-col mt-10 mb-8 div-sec-2 rounded-lg justify-center items-center">
+                    <div class="flex flex-row">
+                        <img class="w-8" src="./img/logo.svg" alt="">
+                        <h1 class="text-teal-900 m-3 text-3xl d">
+                            Plus
+                        </h1>
+                    </div>
+                    <button class="bg-white hover:bg-white-700 text-teal-900  py-3 px-12 rounded-lg">
+                        Explora los alojamientos
+                      </button>
                 </div>
-                <button class="text-red-500 hoverMio1">
-                    Mostrar todas las aventura 
-                </button>
-        </div>
-    </section>
-
-    <section class="seccion-4">
-        <div class="container mx-auto px-10">
-                <div class="">
-                    <h1 class="hoverMio1">
-                        Encuentra alojamiento con un SuperAnfitrión
-                    </h1>
-                    <p class="hoverMio1">
-                        Siéntete como en casa gracias a estos anfitriones experimentados.
-                    </p>
-                </div>
-                <div class="flex flex-row flex-wrap justify-center items-center">
-
-                    <a href="#Siéntete" class="tarjeta-Sientete">
+            </div>
+        </section>
+    
+        <section class="seccion-3">
+            <div class="container mx-auto px-10">
+                <a href="#fdasf" class="link-2 w-full flex flex-col">
+                    <div class="">
+                        <h1 class="hoverMio1">
+                            Presentamos las Aventuras en Airbnb
+                        </h1>
+                        <p class="hoverMio1">
+                            Viajes de varios días dirigidos por expertos locales, con actividades, comidas y alojamiento incluidos.
+                        </p>
+                    </div>
+                </a>
+                    <div class="w-full flex flex-row justify-center items-center m-auto flex-wrap ">
+                        
+                        <a href="#aventuras" class="tarjeta-aventura">
+                            <div class="">
+                                <img class="imagen-aventura" src="./img/patrick-langwallner-ohmrRMdoegU-unsplash.jpg" alt="">
+                                <h2>Filipinas</h2>
+                                <p>Art & Architecture in Croatia</p>
+                                <p>Desde $4835 por persona 10 dias</p>
+                            </div>
+                        </a>
+    
+                        <a href="#aventuras" class="tarjeta-aventura">
+                            <div class="">
+                                <img class="imagen-aventura" src="./img/patrick-langwallner-ohmrRMdoegU-unsplash.jpg" alt="">
+                                <h2>Filipinas</h2>
+                                <p>Art & Architecture in Croatia</p>
+                                <p>Desde $4835 por persona 10 dias</p>
+                            </div>
+                        </a>
+    
+                        <a href="#aventuras" class="tarjeta-aventura">
+                            <div class="">
+                                <img class="imagen-aventura" src="./img/patrick-langwallner-ohmrRMdoegU-unsplash.jpg" alt="">
+                                <h2>Filipinas</h2>
+                                <p>Art & Architecture in Croatia</p>
+                                <p>Desde $4835 por persona 10 dias</p>
+                            </div>
+                        </a>
+    
+                        <a href="#aventuras" class="tarjeta-aventura">
+                            <div class="">
+                                <img class="imagen-aventura" src="./img/patrick-langwallner-ohmrRMdoegU-unsplash.jpg" alt="">
+                                <h2>Filipinas</h2>
+                                <p>Art & Architecture in Croatia</p>
+                                <p>Desde $4835 por persona 10 dias</p>
+                            </div>
+                        </a>
+    
+                       
+                    </div>
+                    <button class="text-red-500 hoverMio1">
+                        Mostrar todas las aventura 
+                    </button>
+            </div>
+        </section>
+    
+        <section class="seccion-4">
+            <div class="container mx-auto px-10">
+                    <div class="">
+                        <h1 class="hoverMio1">
+                            Encuentra alojamiento con un SuperAnfitrión
+                        </h1>
+                        <p class="hoverMio1">
+                            Siéntete como en casa gracias a estos anfitriones experimentados.
+                        </p>
+                    </div>
+                    <div class="flex flex-row flex-wrap justify-center items-center">
+    
+                        <a href="#Siéntete" class="tarjeta-Sientete">
+                                <div class="divImg">
+                                    <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
+                                </div>
+                                <div>
+                                    <h2>The Mushroom Dome Retreat & LAN..</h2>
+                                    <p><span class="font-bold">$130 </span> por noche</p>
+                                </div>
+                        </a>
+    
+                        <a href="#Siéntete" class="tarjeta-Sientete">
                             <div class="divImg">
                                 <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
                             </div>
@@ -218,7 +263,7 @@
                                 <p><span class="font-bold">$130 </span> por noche</p>
                             </div>
                     </a>
-
+    
                     <a href="#Siéntete" class="tarjeta-Sientete">
                         <div class="divImg">
                             <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
@@ -227,101 +272,92 @@
                             <h2>The Mushroom Dome Retreat & LAN..</h2>
                             <p><span class="font-bold">$130 </span> por noche</p>
                         </div>
-                </a>
-
-                <a href="#Siéntete" class="tarjeta-Sientete">
-                    <div class="divImg">
-                        <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
-                    </div>
-                    <div>
-                        <h2>The Mushroom Dome Retreat & LAN..</h2>
-                        <p><span class="font-bold">$130 </span> por noche</p>
-                    </div>
-                </a>
-
-                <a href="#Siéntete" class="tarjeta-Sientete">
-                    <div class="divImg">
-                        <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
-                    </div>
-                    <div>
-                        <h2>The Mushroom Dome Retreat & LAN..</h2>
-                        <p><span class="font-bold">$130 </span> por noche</p>
-                    </div>
-                </a>
-
-
-                <a href="#Siéntete" class="tarjeta-Sientete">
-                    <div class="divImg">
-                        <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
-                    </div>
-                    <div>
-                        <h2>The Mushroom Dome Retreat & LAN..</h2>
-                        <p><span class="font-bold">$130 </span> por noche</p>
-                    </div>
-                </a>
-
-
-                <a href="#Siéntete" class="tarjeta-Sientete">
-                    <div class="divImg">
-                        <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
-                    </div>
-                    <div>
-                        <h2>The Mushroom Dome Retreat & LAN..</h2>
-                        <p><span class="font-bold">$130 </span> por noche</p>
-                    </div>
-                </a>
-
+                    </a>
+    
+                    <a href="#Siéntete" class="tarjeta-Sientete">
+                        <div class="divImg">
+                            <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
+                        </div>
+                        <div>
+                            <h2>The Mushroom Dome Retreat & LAN..</h2>
+                            <p><span class="font-bold">$130 </span> por noche</p>
+                        </div>
+                    </a>
+    
+    
+                    <a href="#Siéntete" class="tarjeta-Sientete">
+                        <div class="divImg">
+                            <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
+                        </div>
+                        <div>
+                            <h2>The Mushroom Dome Retreat & LAN..</h2>
+                            <p><span class="font-bold">$130 </span> por noche</p>
+                        </div>
+                    </a>
+    
+    
+                    <a href="#Siéntete" class="tarjeta-Sientete">
+                        <div class="divImg">
+                            <img class="imagen-aventura" src="./img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" alt="">
+                        </div>
+                        <div>
+                            <h2>The Mushroom Dome Retreat & LAN..</h2>
+                            <p><span class="font-bold">$130 </span> por noche</p>
+                        </div>
+                    </a>
+    
+                </div>
             </div>
-        </div>
-    </section>
-
-    <section class="seccion-5">
-        <div class="container mx-auto px-10">
-            <div class="flex justify-center">
-                <div class="leading-loose w-full flex flex-wrap">
-                    <form class="max-w-full m-4 p-10 bg-white rounded shadow-xl">
-                      <p class="text-gray-800 font-medium">Customer information</p>
-                      <div class="">
-                        <label class="block text-sm text-gray-00" for="cus_name">Name</label>
-                        <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="cus_name" name="cus_name" type="text" required="" placeholder="Your Name" aria-label="Name">
+        </section>
+    
+        <section class="seccion-5">
+            <div class="container mx-auto px-10">
+                <div class="flex justify-center">
+                    <div class="leading-loose w-full flex flex-wrap">
+                        <form class="max-w-full m-4 p-10 bg-white rounded shadow-xl">
+                          <p class="text-gray-800 font-medium">Customer information</p>
+                          <div class="">
+                            <label class="block text-sm text-gray-00" for="cus_name">Name</label>
+                            <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="cus_name" name="cus_name" type="text" required="" placeholder="Your Name" aria-label="Name">
+                          </div>
+                          <div class="mt-2">
+                            <label class="block text-sm text-gray-600" for="cus_email">Email</label>
+                            <input class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded" id="cus_email" name="cus_email" type="text" required="" placeholder="Your Email" aria-label="Email">
+                          </div>
+                          <div class="mt-2">
+                            <label class=" block text-sm text-gray-600" for="cus_email">Address</label>
+                            <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_email" name="cus_email" type="text" required="" placeholder="Street" aria-label="Email">
+                          </div>
+                          <div class="mt-2">
+                            <label class="hidden text-sm block text-gray-600" for="cus_email">City</label>
+                            <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_email" name="cus_email" type="text" required="" placeholder="City" aria-label="Email">
+                          </div>
+                          <div class="inline-block mt-2 w-1/2 pr-1">
+                            <label class="hidden block text-sm text-gray-600" for="cus_email">Country</label>
+                            <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_email" name="cus_email" type="text" required="" placeholder="Country" aria-label="Email">
+                          </div>
+                          <div class="inline-block mt-2 -mx-1 pl-1 w-1/2">
+                            <label class="hidden block text-sm text-gray-600" for="cus_email">Zip</label>
+                            <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_email"  name="cus_email" type="text" required="" placeholder="Zip" aria-label="Email">
+                          </div>
+                          <p class="mt-4 text-gray-800 font-medium">
+                              Payment information
+                            </p>
+                          <div class="">
+                            <label class="block text-sm text-gray-600" for="cus_name">Card</label>
+                            <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_name" name="cus_name" type="text" required="" placeholder="Card Number MM/YY CVC" aria-label="Name">
+                          </div>
+                          <div class="mt-4">
+                            <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6  float-left rounded" type="submit">
+                                Recarga
+                            </button>
+                          </div>
+                        </form>
                       </div>
-                      <div class="mt-2">
-                        <label class="block text-sm text-gray-600" for="cus_email">Email</label>
-                        <input class="w-full px-5  py-4 text-gray-700 bg-gray-200 rounded" id="cus_email" name="cus_email" type="text" required="" placeholder="Your Email" aria-label="Email">
-                      </div>
-                      <div class="mt-2">
-                        <label class=" block text-sm text-gray-600" for="cus_email">Address</label>
-                        <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_email" name="cus_email" type="text" required="" placeholder="Street" aria-label="Email">
-                      </div>
-                      <div class="mt-2">
-                        <label class="hidden text-sm block text-gray-600" for="cus_email">City</label>
-                        <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_email" name="cus_email" type="text" required="" placeholder="City" aria-label="Email">
-                      </div>
-                      <div class="inline-block mt-2 w-1/2 pr-1">
-                        <label class="hidden block text-sm text-gray-600" for="cus_email">Country</label>
-                        <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_email" name="cus_email" type="text" required="" placeholder="Country" aria-label="Email">
-                      </div>
-                      <div class="inline-block mt-2 -mx-1 pl-1 w-1/2">
-                        <label class="hidden block text-sm text-gray-600" for="cus_email">Zip</label>
-                        <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_email"  name="cus_email" type="text" required="" placeholder="Zip" aria-label="Email">
-                      </div>
-                      <p class="mt-4 text-gray-800 font-medium">
-                          Payment information
-                        </p>
-                      <div class="">
-                        <label class="block text-sm text-gray-600" for="cus_name">Card</label>
-                        <input class="w-full px-2 py-2 text-gray-700 bg-gray-200 rounded" id="cus_name" name="cus_name" type="text" required="" placeholder="Card Number MM/YY CVC" aria-label="Name">
-                      </div>
-                      <div class="mt-4">
-                        <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6  float-left rounded" type="submit">
-                            Recarga
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
     
     <footer>
         <div class="container mx-auto px-10">

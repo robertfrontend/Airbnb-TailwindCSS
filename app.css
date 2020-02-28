@@ -14,21 +14,24 @@ p{
 
 @tailwind components;
 
-/*--<adelmenu--*/
+/*--adelmenu--*/
 .link-menu{
     @apply text-sm font-normal text-white 
 }
-/*----*/
 
 /*----seccion-1descubreTarjetas--*/
 .descubre-tarject{
-    @apply max-w-xs text-gray-700 text-center m-1 my-3 flex-row justify-center items-center pr-32 rounded-lg
+    @apply max-w-xs text-gray-700 m-auto text-center my-3 flex-row justify-center items-center pr-32 rounded-lg
 }
 
+
+.inputReservar {
+    @apply appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight
+}
+
+
+
 /*---TarjetasAventura---*/
-
-
-
 .tarjeta-aventura{
     @apply wid flex-col justify-center items-center m-auto
 }
@@ -37,7 +40,6 @@ p{
     @apply w-full rounded-lg m-0
 }
 
-/*---------------*/
 
 /*---Sientete---*/
 
@@ -51,8 +53,6 @@ p{
 .imagen-Sientete{
     @apply w-full rounded-lg m-0
 }
-
-/*-----*/
 
 
 

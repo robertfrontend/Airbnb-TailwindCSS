@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .header {
   width: 100%;
-  height: auto;
+  height: 100vh;
   background: url(../img/alberto-castillo-q-mx4mSkK9zeo-unsplash.jpg);
   background-size: cover;
   background-position: center;
@@ -86,9 +86,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -103,6 +103,31 @@
 
 .header .div-menu nav ul li a {
   padding: 10px 10px;
+}
+
+.div-reservar {
+  width: 100%;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div-reservar .sub-reservar {
+  width: 35%;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.div-reservar .sub-reservar div {
+  margin: 8px 0px;
 }
 
 .div-sec-2 {
